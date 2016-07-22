@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Order": {
+    "dataSource": "in-memory",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "in-memory",
+    "public": true
+  },
+  "Physician": {
+    "dataSource": "in-memory",
+    "public": true
+  },
+  "Patient": {
+    "dataSource": "in-memory",
+    "public": true
+  },
+  "Appointment": {
+    "dataSource": "in-memory",
+    "public": true
+  },
+  "Assembly": {
+    "dataSource": "in-memory",
+    "public": true
+  },
+  "Part": {
+    "dataSource": "in-memory",
+    "public": true
+  },
+  "AssemblyPart": {
+    "dataSource": "in-memory",
+    "public": true
+  }
+}

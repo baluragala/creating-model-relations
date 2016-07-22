@@ -1,0 +1,23 @@
+{
+  "name": "Appointment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "physicianId": {
+      "type": "string"
+    },
+    "patientId": {
+      "type": "string"
+    },
+    "appointmentDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
