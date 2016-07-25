@@ -11,7 +11,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "patients": {
+      "type": "hasMany",
+      "model": "Patient",
+      "foreignKey": "",
+      "through": "Appointment"
+    }
+  },
   "acls": [],
   "methods": {}
 }

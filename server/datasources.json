@@ -1,6 +1,6 @@
 {
-  "in-memory": {
-    "name": "in-memory",
+  "db": {
+    "name": "db",
     "localStorage": "",
     "file": "",
     "connector": "memory"

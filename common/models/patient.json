@@ -11,7 +11,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "physicians": {
+      "type": "hasMany",
+      "model": "Physician",
+      "foreignKey": "",
+      "through": "Appointment"
+    }
+  },
   "acls": [],
   "methods": {}
 }

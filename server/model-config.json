@@ -14,35 +14,31 @@
     ]
   },
   "Order": {
-    "dataSource": "in-memory",
+    "dataSource": "db",
     "public": true
   },
   "Customer": {
-    "dataSource": "in-memory",
+    "dataSource": "db",
     "public": true
   },
   "Physician": {
-    "dataSource": "in-memory",
+    "dataSource": "db",
     "public": true
   },
   "Patient": {
-    "dataSource": "in-memory",
+    "dataSource": "db",
     "public": true
   },
   "Appointment": {
-    "dataSource": "in-memory",
+    "dataSource": "db",
     "public": true
   },
   "Assembly": {
-    "dataSource": "in-memory",
+    "dataSource": "db",
     "public": true
   },
   "Part": {
-    "dataSource": "in-memory",
-    "public": true
-  },
-  "AssemblyPart": {
-    "dataSource": "in-memory",
+    "dataSource": "db",
     "public": true
   }
 }
